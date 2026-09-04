@@ -1,0 +1,20 @@
+[[package]]
+name = "duckdb"
+version = "0.10.0"
+description = "DuckDB embedded database"
+optional = false
+python-versions = ">=3.8"
+files = []
+
+[[package]]
+name = "fastapi"
+version = "0.110.0"
+description = "FastAPI framework"
+optional = false
+python-versions = ">=3.8"
+files = []
+
+[metadata]
+lock-version = "2.0"
+python-versions = ">=3.10"
+content-hash = "a765272ebca88383a17c2fbd6eb99a4bc032c253db5c3325e1a3bc8ef07d728e"
