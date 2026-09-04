@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment & Secrets (STRICT: Zero secrets in git)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.measure_venv/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+.m2/
+
+# Build & Bundles
+dist/
+build/
+.next/
+out/
+
+# Logs & DB
+*.log
+npm-debug.log*
+yarn-debug.log*
+*.sqlite3
+*.db
+minio-data/
+iceberg-warehouse/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
